@@ -1,0 +1,36 @@
+Idea: Stolen from XKCD 3045:
+Make chess 'engine' alhpa move. Alpha move makes a list
+of all possible legal moves and picks the middle one.
+
+To do:
+
+1. Make flask web app to host game board
+2. make opperational chess web app
+3. Make algo
+4. Player input control
+
+1. flask
+
+
+
+2. Make chess
+unicode for pieces
+        4	5	6	7	8	9	A	B	C	D	E	F
+U+265x	♔	♕	♖	♗	♘	♙	♚	♛	♜	♝	♞	♟
+
+use chess library
+
+
+
+3. algo design
+
+    1. Collect all legal moves
+    2. make list
+    3. find half of list, or half +-1
+
+
+4. player input
+chess lib
+
+
+
